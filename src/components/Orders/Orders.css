@@ -1,0 +1,9 @@
+.orders-container{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 40px;
+}
+.cart-container{
+    border-radius: 5px;
+}

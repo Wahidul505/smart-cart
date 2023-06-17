@@ -1,0 +1,13 @@
+.complete_shipment_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.complete_shipment_container img{
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+.complete_shipment_container .shipment_done_text{
+   color: #ED393D;
+}

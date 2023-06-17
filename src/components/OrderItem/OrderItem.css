@@ -1,0 +1,36 @@
+.order-item{
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.order-item p{
+    margin: 0;
+}
+.order-item img{
+    width: 91px;
+    height: 91px;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+.order-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.order-info .delete-btn{
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50%;
+    color: #EB5757;
+    background-color: rgba(235, 87, 87, 0.3);
+    font-size: 27px;
+    margin: auto 0px;
+}
+.order-info .delete-btn:hover{
+    color: lightpink;
+    background-color: #EB5757;
+    cursor: pointer;
+}
